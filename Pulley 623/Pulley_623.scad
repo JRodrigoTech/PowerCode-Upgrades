@@ -7,12 +7,12 @@
 // Parámetros de la pieza  /
 /**************************/
 
-dCoji = 10.3;	// Diámetro  del cojinete (10.3)
-hPolea = 1.05;		// Anchura de la pared de la polea (1.05)
-hCoji = 5.2;	// Anchura del cojinete (5.2)
-dEje = 6;		// Diámetro del eje (6)
-dPolea = 15;	// Diámetro externo de la polea (15)
-hCorrea = 6;	// Anchura de la correa (6)
+dCoji	= 10.3 ;// Diámetro  del cojinete (10.3)
+hPolea	= 1 ;	// Anchura de la pared de la polea (Normal = 1) (Strong = 2)
+hCoji	= 5.2 ;	// Anchura del cojinete (5.2)
+dEje	= 6 ;	// Diámetro del eje (6)
+dPolea	= 15 ;	// Diámetro externo de la polea (Normal = 15) (Strong = 17)
+hCorrea = 6 ;	// Anchura de la correa (6)
 
 // Media polea para un cojinete
 module Polea(){
@@ -39,13 +39,17 @@ module Polea(){
 	}
 }
 
-// Generamos la pieza
+// Generamos la mitad de la polea
 
 	Polea();
+	
+// Generamos la otra mitad de la polea
 	difference(){
+		// Trasladada y rotada
 		translate([0, 0, 9])
 		rotate([180, 0, 0])
 		Polea();
+		// Obertura para el cojinete
 		translate([0, 0, 3])
 		cylinder (h = 8, r = dCoji/2, $fn=100);
 	}
