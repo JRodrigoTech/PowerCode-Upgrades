@@ -15,4 +15,4 @@ Para evitar ralladuras en una mesa de madera y la transmisión de vibraciones pr
 Foto de Pedro Lahuerta
 
 ----
-Basado en el trabajo de Pedro Lahuerta ( http://goo.gl/D9cUYG )
+Basado en el trabajo de Pedro Lahuerta, más información en http://goo.gl/D9cUYG
