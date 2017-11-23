@@ -1,8 +1,10 @@
-PowerCode - Things
+PowerCode - Upgrades
 ================
-Cosas y actualizaciones para la impresora 3D PowerCode diseñadas por [J.Rodrigo](http://jra.so) (Twitter: [@javrodara](http://twitter.com/javrodara)).
+Cosas y actualizaciones para la impresora 3D PowerCode diseñadas por [J.Rodrigo](http://www.jrodrigo.net) (Twitter: [@JRodrigoTech](http://twitter.com/jrodrigotech)).
 
-Licencia [Creative Commons Compartir igual y Atribución]( http://creativecommons.org/licenses/by-sa/3.0/es/)
+
+## Licencia
+#### [Creative Commons - Attribution and Share Alike](https://github.com/JRodrigoTech/PowerCode-Upgrades/blob/master/LICENSE.md) por [J.Rodrigo](http://www.jrodrigo.net)
 
 Acerca de la Impresora PowerCode
 ================
